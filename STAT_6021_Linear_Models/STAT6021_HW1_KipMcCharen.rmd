@@ -1,0 +1,103 @@
+---
+title: "STAT 6021 Homework 1"
+author: "Kip McCharen"
+date: "7/13/2020"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+## Question 1
+(R required) R provides some data sets though its datasets package that you can readily use. The list of the data sets, as well as their descriptions, can be found here. We will look at a classic data set concerning the Old Faithful geyser at Yellowstone National Park. To load this data set, just type faithful. You may attach the data by typing attach(faithful). The data set contains 272 observations on two variables: eruptions is the eruption time in minutes, and waiting is the waiting time to the next eruption. It is hypothesized that the waiting time to the next eruption can be predicted using the eruption time of the current eruption. During the Washburn Expedition of 1870, members noticed the geyser erupted at regular intervals, thus leading to its name Old Faithful.
+
+```{r setup, include=FALSE}
+ff <- faithful 
+attach(ff)
+print(names(faithful))
+print(head(ff))
+print(summary(ff))
+print(nrow(ff))
+
+#(a) What is the response variable in this analysis? What is predictor in this analysis?
+#Predictor variable: *eruptions*, time elapsed (in minutes) during an eruption event
+#Response variable: *waiting*, time elapsed (in years) between eruption events
+
+#(b) Produce a scatterplot of the two variables. How would you describe the relationship between the two variables?
+plot(eruptions, waiting,
+     ylab='Waiting time(min)',
+     xlab='Eruption Time(min)',
+     main='Plot for waiting time and eruption time')
+
+#(c) What is the correlation between the eruption times and waiting times for the next eruption? 
+cor(waiting, eruptions)
+#Interpret this correlation contextually. How reliable is this interpretation?
+
+
+result<-lm(waiting~eruptions)
+summary(result)
+
+anova(result)
+
+#SSE + SSR = SST
+#R squared is 0.8
+
+#sigma hat squared is about 35 - estimated variance
+print(5.914 ^ 2)
+
+#y intercept doesn't make sense in this case
+#F value is enormous 
+
+#null and alternative hypotheses 
+#βˆ1 == 0
+#βˆ1 interpretation: A 1-minute increase in the length of eruption will increase the waiting time by 10.7296 minutes on average.
+
+
+#critical value 
+#qf function?
+#conclusion: there is a linear relationship between the variables 
+
+
+#what is the critical value?
+ # 1 - alpha  
+ # df1 = 1 
+ # df2 = n - 2
+# look at anova and take DF from there 
+
+```
+
+
+
+```{r cars}
+
+# 2. (R required) For this question, we will use the cornnit data set from the faraway package. Be sure to install and load the faraway package [faraway], and then load the data set. The data explore the relationship between corn yield (bushels per acre) and nitrogen (pounds per acre) fertilizer application in a study carried out in Wisconsin.
+library(faraway)
+#detach(faithful)
+attach(cornnit)
+print(names(cornnit))
+print(head(cornnit))
+print(summary(cornnit))
+print(nrow(cornnit))
+# (a) What is the response variable and predictor for this study? Create a scatterplot of the data, and interpret the scatterplot.
+#   Predictor: nitrogen, pounds per acre of nitrogen fertilizer used on corn fields
+#   Response: yield, bushels per acre of corn grown in the fields which were amended with nitrogen fertilizer
+
+# (b) Fit a linear regression without any transformations. Create the corresponding residual plot. Based only on the residual plot, what transformation will you consider first? Be sure to explain your reason.
+lreg<-lm(nitrogen~yield)
+print(lreg)
+plot(x=cornnit$nitrogen, y=cornnit$yield, 
+     xlab='Pounds Per Acre', 
+     ylab='Bushesl Per Acre', 
+     main='Plot Corn Yield and N Fertilizer')
+# 
+
+# (c) Create a Box Cox plot for the profile loglikelihoods. How does this plot aid in your data transformation?
+#   
+
+# (d) Perform the necessary transformation to the data. Re t the regression with the transformed variable(s) and assess the regression assumptions. You may have
+# to apply transformations a number of times. Be sure to explain the reason behind each of your transformations. Perform the needed transformations until the regression assumptions are met. What is the regression equation that you will use?
+#   
+
+# Note: in part 2d, there are a number of solutions that will work. You must clearly
+# document your reasons for each of your transformations.
+
+```

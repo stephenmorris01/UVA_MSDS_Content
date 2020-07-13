@@ -1,0 +1,48 @@
+---
+title: "STAT6021_Mod0Qs"
+author: "Kip McCharen"
+date: "7/13/2020"
+output:
+  pdf_document: default
+---
+
+***
+
+1. Statistical theory tells us the distribution of the sample means with a fixed sample size, under certain circumstances. The sampling distribution is an approximation of the density histogram of the sample means. We know the sample means vary from sample to sample. The sampling distribution tells us the expected value (mean) of the distribution, and the standard deviation of the sample means.
+(a) Suppose the variable X follows a normal distribution with mean $\mu$ and standard deviation $\sigma$. Consider taking random samples, each with size n, repeatedly. What is the sampling distribution of the sample mean, $\bar{x}$?
+
+**A:** $\bar{x}$ (the sampling distribution of the sample mean) = $\textit{N}$($\mu$, $\frac{\sigma}{\sqrt{\textit{n}}}$)
+
+***
+
+(b) Suppose the variable X has an unknown distribution but known mean $\mu$ and known standard deviation $\sigma$. What is the name of the statistical theory that informs us that the sampling distribution of the sample mean, $\bar{x}$, can be well-approximated by a normal distribution?
+
+**A:** the central limit theorem
+
+***
+
+2. An automatic machine in a manufacturing process produces subcomponents. The lengths of the subcomponents follow a normal distribution with a mean of 116 cm and a standard deviation of 4.8 cm. 
+
+(a) Find the probability that one selected subcomponent is longer than 118cm.
+
+```{R, echo=TRUE}
+lower_bound = 118
+upper_bound = 200 #arbitrarily out of bounds upper limit
+sample_mean = 116
+ssd = 4.8
+zscore = (lower_bound - sample_mean)/ssd
+print(paste("zscore: ", zscore))
+
+curve <- pnorm(upper_bound, mean = sample_mean, sd=ssd) - pnorm(lower_bound, sample_mean, ssd)
+print(paste("area under the curve: ", curve))
+```
+**A:** the probability is ~34% that one selected subcomponent is longer than 118cm
+
+***
+
+(b) Find the probability that if 3 subcomponents are randomly selected, their mean
+length exceeds 118cm.
+
+```{R, echo=TRUE}
+
+```
