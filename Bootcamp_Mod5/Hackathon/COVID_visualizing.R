@@ -10,7 +10,7 @@ library(directlabels)
 
 rdata <- read.csv("https://opendata.ecdc.europa.eu/covid19/casedistribution/csv", na.strings = "", fileEncoding = "UTF-8-BOM") #load online source
 rdata[[1]] <- as.Date(rdata[[1]], "%d/%m/%Y") # convert raw date to actual date value
-rdata <- rdata %>% dplyr::rename(country = countriesAndTerritories)
+rdata <-  rename(rdata, country = countriesAndTerritories)
 #%%
 rdata <- select(rdata, dateRep, country, geoId, cases, popData2019) # limit columns
 rdata <- rdata[!is.na(rdata$dateRep), ] #drop where no date 
@@ -29,16 +29,16 @@ dtogether <- dtogether %>% group_by(country) %>% mutate(cum_cases = cumsum(cases
 dtogether <- ungroup(dtogether) #ungroup
 dtogether$casesPerMillion <- dtogether$cum_cases / (dtogether$popData2019 / 1000000) #calculate cases per million pop
 #%%
-df_viz_limit <- dtogether %>% filter(dateRep >= "2020-01-22") # & dateRep <= "2020-07-06")
+df_viz_limit <- dtogether %>% filter(dateRep >= "2020-01-22") # & dateRep <= "2020-07-12")
 countrylist <- c('United_States_of_America', 'United_Kingdom', 'South_Korea', 'China', 'World')
 df_viz_limit <- df_viz_limit %>% filter(country %in% countrylist)
 #head(dtogether)
 #%%
 library(ggrepel)
 
-ggplot(data=df_viz_limit, aes(x=dateRep, y=casesPerMillion, color = country)) +
-  geom_line() +
-  scale_colour_discrete(guide = 'none') +
+ggplot(data=df_viz_limit) +
+  geom_line(aes(x=dateRep, y=casesPerMillion, color = country, group = country)) +
+  scale_colour_discrete() + #guide = 'none'
   #scale_x_discrete(expand=c(0, 1)) +
   scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
                 labels = trans_format("log10", math_format(10^.x)))
