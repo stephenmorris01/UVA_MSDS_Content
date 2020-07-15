@@ -30,7 +30,7 @@ dtogether <- ungroup(dtogether) #ungroup
 dtogether$casesPerMillion <- dtogether$cum_cases / (dtogether$popData2019 / 1000000) #calculate cases per million pop
 #%%
 df_viz_limit <- dtogether %>% filter(dateRep >= "2020-01-22") # & dateRep <= "2020-07-12")
-countrylist <- c('United_States_of_America', 'United_Kingdom', 'South_Korea', 'China', 'World')
+countrylist <- c('United_States_of_America', 'World', 'New_Zealand', 'Canada', 'Singapore', 'Australia') #'South_Korea', 'China', 'United_Kingdom', 
 df_viz_limit <- df_viz_limit %>% filter(country %in% countrylist)
 #head(dtogether)
 #%%

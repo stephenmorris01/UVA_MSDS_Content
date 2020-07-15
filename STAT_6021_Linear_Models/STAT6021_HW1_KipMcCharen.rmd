@@ -7,35 +7,45 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Question 1
-(R required) R provides some data sets though its datasets package that you can readily use. The list of the data sets, as well as their descriptions, can be found here. We will look at a classic data set concerning the Old Faithful geyser at Yellowstone National Park. To load this data set, just type faithful. You may attach the data by typing attach(faithful). The data set contains 272 observations on two variables: eruptions is the eruption time in minutes, and waiting is the waiting time to the next eruption. It is hypothesized that the waiting time to the next eruption can be predicted using the eruption time of the current eruption. During the Washburn Expedition of 1870, members noticed the geyser erupted at regular intervals, thus leading to its name Old Faithful.
+<!-- (R required) R provides some data sets though its datasets package that you can readily use. The list of the data sets, as well as their descriptions, can be found here. We will look at a classic data set concerning the Old Faithful geyser at Yellowstone National Park. To load this data set, just type faithful. You may attach the data by typing attach(faithful). The data set contains 272 observations on two variables: eruptions is the eruption time in minutes, and waiting is the waiting time to the next eruption. It is hypothesized that the waiting time to the next eruption can be predicted using the eruption time of the current eruption. During the Washburn Expedition of 1870, members noticed the geyser erupted at regular intervals, thus leading to its name Old Faithful. 
+(a) What is the response variable in this analysis? What is predictor in this analysis?-->
 
+## Question 1a, Old Faithful
+* Response variable: *waiting*, time elapsed (in years) between eruption events
+* Predictor variable: *eruptions*, time elapsed (in minutes) during an eruption event
+
+***
+
+<!-- of the two variables. How would you describe the relationship between the two variables? -->
+##(1b) Scatterplot 
 ```{r setup, include=FALSE}
-ff <- faithful 
-attach(ff)
 print(names(faithful))
-print(head(ff))
-print(summary(ff))
-print(nrow(ff))
+print(head(faithful))
+print(summary(faithful))
+print(nrow(faithful))
 
-#(a) What is the response variable in this analysis? What is predictor in this analysis?
-#Predictor variable: *eruptions*, time elapsed (in minutes) during an eruption event
-#Response variable: *waiting*, time elapsed (in years) between eruption events
-
-#(b) Produce a scatterplot of the two variables. How would you describe the relationship between the two variables?
-plot(eruptions, waiting,
+plot(faithful$eruptions, faithful$waiting,
      ylab='Waiting time(min)',
      xlab='Eruption Time(min)',
      main='Plot for waiting time and eruption time')
+```
+I would describe the relationship between the two variables as grouped at extremes. There is no clear straight line in the graph. 
 
-#(c) What is the correlation between the eruption times and waiting times for the next eruption? 
-cor(waiting, eruptions)
-#Interpret this correlation contextually. How reliable is this interpretation?
+***
+<!-- #(c) What is the correlation between the eruption times and waiting times for the next eruption? #Interpret this correlation contextually. How reliable is this interpretation?  -->
+##(1c) correlation
+```{r setup, include=FALSE}
+cor(faithful$waiting, faithful$eruptions)
+```
+Even though the correlation is 0.9, this interpretation is not extremely reliable due to the obviously imperfect relationship in the graph. 
 
+***
 
-result<-lm(waiting~eruptions)
+##(1d) Fit linear regression
+```{r setup, include=FALSE}
+result<-lm(faithful$waiting~faithful$eruptions)
 summary(result)
-
+```
 anova(result)
 
 #SSE + SSR = SST

@@ -9,40 +9,42 @@ output:
 ***
 # Topic 1: Sampling Distributions
 
-1. Statistical theory tells us the distribution of the sample means with a fixed sample size, under certain circumstances. The sampling distribution is an approximation of the density histogram of the sample means. We know the sample means vary from sample to sample. The sampling distribution tells us the expected value (mean) of the distribution, and the standard deviation of the sample means.
+<!-- 1. Statistical theory tells us the distribution of the sample means with a fixed sample size, under certain circumstances. The sampling distribution is an approximation of the density histogram of the sample means. We know the sample means vary from sample to sample. The sampling distribution tells us the expected value (mean) of the distribution, and the standard deviation of the sample means. -->
 
-(a) Suppose the variable X follows a normal distribution with mean $\mu$ and standard deviation $\sigma$. Consider taking random samples, each with size n, repeatedly. What is the sampling distribution of the sample mean, $\bar{x}$?
+<!-- (a) Suppose the variable X follows a normal distribution with mean $\mu$ and standard deviation $\sigma$. Consider taking random samples, each with size n, repeatedly. What is the sampling distribution of the sample mean, $\bar{x}$? -->
 
-## **A:** $\bar{x}$ (the sampling distribution of the sample mean) = $\textit{N}$($\mu$, $\frac{\sigma}{\sqrt{\textit{n}}}$)
-
-***
-
-(b) Suppose the variable X has an unknown distribution but known mean $\mu$ and known standard deviation $\sigma$. What is the name of the statistical theory that informs us that the sampling distribution of the sample mean, $\bar{x}$, can be well-approximated by a normal distribution?
-
-## **A:** the central limit theorem
+## **1a:** $\bar{x}$ (the sampling distribution of the sample mean) = $\textit{N}$($\mu$, $\frac{\sigma}{\sqrt{\textit{n}}}$)
 
 ***
 
-2. An automatic machine in a manufacturing process produces subcomponents. The lengths of the subcomponents follow a normal distribution with a mean of 116 cm and a standard deviation of 4.8 cm. 
+<!-- (b) Suppose the variable X has an unknown distribution but known mean $\mu$ and known standard deviation $\sigma$. What is the name of the statistical theory that informs us that the sampling distribution of the sample mean, $\bar{x}$, can be well-approximated by a normal distribution? -->
 
-(a) Find the probability that one selected subcomponent is longer than 118cm.
+## **1b:** the central limit theorem informs us that the sampling distribution of the sample mean, $\bar{x}$, can be well-approximated by a normal distribution.
 
+***
+
+<!-- 2. An automatic machine in a manufacturing process produces subcomponents. The lengths of the subcomponents follow a normal distribution with a mean of 116 cm and a standard deviation of 4.8 cm.  -->
+
+<!-- (a) Find the probability that one selected subcomponent is longer than 118cm. -->
+
+## **2a:** Probability of subcomponent length: one-tailed test.
 ```{R, echo=TRUE}
+roundme <- 4
+
 value = 118
 sample_mean = 116
 ssd = 4.8
 zscore = (value - sample_mean)/ssd
-print(paste("zscore: ", round(zscore, digits = 4)))
-
-curve <- pnorm(value, mean = sample_mean, sd=ssd)
-print(paste("area under the curve: ", round(1-curve, digits = 4)))
+print(paste("zscore: ", round(zscore, roundme)))
+curve <- pnorm(zscore)
+print(paste("area under the curve: ", round(1-curve, roundme)))
 ```
-## **A:** the probability is ~34% that one selected subcomponent is longer than 118cm
+There is ~33.85% probability that one selected subcomponent is longer than 118cm.
 
 ***
 
-(b) Find the probability that if 3 subcomponents are randomly selected, their mean length exceeds 118cm.
-
+<!-- (b) Find the probability that if 3 subcomponents are randomly selected, their mean length exceeds 118cm. -->
+## **2b:** 1 tailed test checking above sample mean length.  
 ```{R, echo=TRUE}
 original_SD = 4.8
 sample_size = 3
@@ -50,50 +52,48 @@ ssd = original_SD / sqrt(sample_size)
 value = 118
 sample_mean = 116
 zscore = (value - sample_mean)/ssd
-print(paste("zscore: ", round(zscore, digits = 4)))
-
-curve <- pnorm(value, mean = sample_mean, sd=ssd)
-print(paste("area under the curve: ", round(1-curve, digits = 4)))
-
+print(paste("zscore: ", round(zscore, roundme)))
+curve <- pnorm(zscore)
+print(paste("area under the curve: ", round(1-curve, roundme)))
 ```
-## **A:** There is about a 23.5% chance that 3 randomly selected subcomponents have a mean length > 118cm. 
+There is about a 23.52% chance that 3 randomly selected subcomponents have a mean length > 118cm. 
 
 ***
 
 # Topic 2: Confidence Intervals
 
-3. What are the goals of constructing a confidence interval?
+<!-- 3. What are the goals of constructing a confidence interval? -->
 
-## **A:** We construct confidence intervals to be as accurate as possible in quantifying the amount of uncertainty in an estimation of plausible values for an unknown value of interest. 
-
-***
-
-4. How does increasing the confidence level affect the margin of error and the width of the confidence interval? Hint: sketching the standard normal distribution will be helpful.
-
-## **A:** Therefore if we increase the confidence level, the margin of error increases.
+## **3:** We construct confidence intervals to be as accurate as possible in quantifying the amount of uncertainty in an estimation of plausible values for an unknown value of interest. 
 
 ***
 
-5. How does increasing the sample size affect the margin of error and the width of the confidence interval? Briefly explain.
+<!-- 4. How does increasing the confidence level affect the margin of error and the width of the confidence interval? Hint: sketching the standard normal distribution will be helpful. -->
 
-## **A** As the sample size increases, so too increases the denominator of the estimate standard deviation portion of the confidence interval equation, which will reduce the magnitude of the margin of error. In clearer language, with more samples we can assume our data will look more exactly like a normal curve and we can also assume our estimates will be more generally accurate, with less error. 
+## **4:** If we increase the confidence level, the margin of error increases. The bigger they are, the harder they fall.
 
 ***
 
-6. Use R to find the value of the t-multiplier when constructing a confidence interval for the mean in the following situations:
-(a) 94% confidence interval with n = 49.
-(b) 86% confidence interval with n = 82.
-(c) 74% confidence interval with n = 150.
-Hint: you will need either the qt() or pt() function.
+<!-- 5. How does increasing the sample size affect the margin of error and the width of the confidence interval? Briefly explain. -->
 
-## **A** 
+## **5** As the sample size increases, so too increases the denominator of the standard error of the sample mean, thus reducing the magnitude of the margin of error. In clearer language, with more samples we can assume our data will look more exactly like a normal curve and we can also assume our estimates will be more generally accurate (with less error). 
+
+***
+
+<!-- 6. Use R to find the value of the t-multiplier when constructing a confidence interval for the mean in the following situations: -->
+<!-- (a) 94% confidence interval with n = 49. -->
+<!-- (b) 86% confidence interval with n = 82. -->
+<!-- (c) 74% confidence interval with n = 150. -->
+<!-- Hint: you will need either the qt() or pt() function. -->
+
+## **6** Finding t-multipliers for $\mu$ CI
 ```{R, echo=TRUE}
 t_mult <- function(alpha=0.05, sample_size) {
   percentile = (1-(alpha / 2))
   print(paste((percentile * 100), "th percentile value in t distribution", sep = ""))
   deg_free = sample_size - 1
   t_mult <- qt(percentile, deg_free)
-  print(paste("t multiplier for curr alpha/percentile:  ", t_mult))
+  print(paste("t multiplier for curr alpha/percentile:  ", round(t_mult, roundme)))
   print("")
 }
 t_mult(0.06, 49)
@@ -103,39 +103,183 @@ t_mult(0.26, 150)
 
 ***
 
-7. A random sample of 100 students had a mean grade point average (GPA) of 3.2 with a standard deviation of 0.2.
-(a) Calculate a 97% confidence interval for the mean GPA for all students.
+<!-- 7. A random sample of 100 students had a mean grade point average (GPA) of 3.2 with a standard deviation of 0.2. -->
+<!-- (a) Calculate a 97% confidence interval for the mean GPA for all students. -->
 
-## **A** 
-
-***
-
-(b) What is the margin of error for the confidence interval found in the previous part? What is the margin of error telling us?
-
-## **A** 
-
-***
-
-(c) Based on this confidence interval, is it reasonable to say that the mean GPA of all students is 3.25 or greater?
-
-## **A** 
-
-if writing in rmd
-	-submit both a pdf and "pure" r file
-	-no need to restate the Q
-	-if the answer is the simple output of an R formula, do you prefer we restate that in plain English text?
-	
-QT is if based on t statistic
-ANOVA is if based on f statistic 
-  mean sq regression (df1 for numerator)
-  ---------------------
-  over mean sq residual (df2 for denominator)
+## **7a** GPA sample of 100 students
 ```{R, echo=TRUE}
-n = 50
-df1 = n - 1
-df2 = df1 - 1
-alpha <- 0.05
-critical_value <- qf(1-alpha, df1, df2)
+
+conf_interval <- function(s_n, s_mean, s_SD, integer_confidence_pct) {
+  alpha <- 1 - (integer_confidence_pct/100)
+  deg_free <- s_n - 1
+  multiplier <- (1 - (alpha / 2))#two tailed test
+  print(paste((multiplier * 100), "th percentile value in normal distribution"))
+  
+  Z_score <- qnorm(multiplier, s_mean, s_SD)
+  print(paste("z score:   ",round(Z_score,roundme)))
+  
+  t_mult <- qt(multiplier, deg_free)
+  print(paste("t multiplier:   ",round(t_mult,roundme)))
+  
+  stand_error_of_s_mean = s_SD/(sqrt(s_n))
+  print(paste("SE of estimate:   ", round(stand_error_of_s_mean,roundme) ))
+                #standard error because estimating w sample mean instead of pop mean
+                #estimate vs sample mean?
+  margin_of_error <- t_mult * stand_error_of_s_mean
+  
+  print(paste("one sided interval / margin of error: ",round(margin_of_error,roundme) ))
+  
+  print(paste(integer_confidence_pct, "% confidence interval : ",
+        round(s_mean - margin_of_error,roundme)," to ",round(s_mean + margin_of_error,roundme)))
+}
+conf_interval(100, 3.2, 0.2, 97)
+
 ```
 
 ***
+
+<!-- (b) What is the margin of error for the confidence interval found in the previous part? What is the margin of error telling us? -->
+
+## **7b** The margin of error for above is 0.044. It tells us that in 97% of random samples of 100 students, the true population mean GPA is no more than 0.044 different from the sample mean.
+
+***
+
+<!-- (c) Based on this confidence interval, is it reasonable to say that the mean GPA of all students is 3.25 or greater? -->
+
+## **7c** Based on this confidence interval, no it is not reasonable to say that, 3.25 is lower than the upper bound of the confidence interval.  
+
+***
+
+# Topic 3: Hypothesis Testing
+
+<!-- 8. What is a goal of conducting a hypothesis test? -->
+
+## **8** The goal of conducting a hypothesis test is to distinguish patterns seen in data between random chance and real features being examined.
+
+***
+
+<!-- 9. Hypothesis statements are always about the population parameter / sample statistic (choose one) of interest. -->
+
+## **9** Hypothesis statements are always about the **population parameter.**
+
+***
+
+<!-- 10. For each of the situations, state the appropriate null and alternative hypotheses, in symbols and in words. Sketch how you would find the p-value based on the calculated test statistic. -->
+
+<!-- (a) David's car averages 29 miles per gallon on the highway. He just switched to a new motor oil that is advertised as increasing gas mileage. He wants to investigate if the advertisement is accurate. -->
+
+<!-- (b) The diameter of a spindle in a small motor is supposed to be 4 millimeters. If the spindle is too small or too large, the motor will not function properly. The manufacturer wants to investigate whether the mean diameter is moved away from the target. -->
+
+<!-- (c) The average time in traffic between 2 points of a congested highway used to be 2 hours. The government invested money to improve travel times by building extra lanes and overpasses. Citizens want to access if travel times have improved, on average. -->
+
+## **10a** 
+* $\textit{H}_0$: Average gas mileage with new motor oil = 29
+* $\textit{H}_a$: Average gas mileage with new motor oil > 29
+* If we are checking for values greater than the statistic, the p-value measures the area to the right of the t statistic. 
+
+## **10b** 
+* $\textit{H}_0$: Average spindle diameter = 4mm
+* $\textit{H}_a$: Average spindle diameter ≠ 4mm
+* If we are checking for inequality to the statistic, the p-value measures the area at the 2 tail ends the t distribution. 
+
+## **10c** 
+* $\textit{H}_0$: Average traffic time in area = 2hrs
+* $\textit{H}_a$: Average traffic time in area < 2hrs
+* If we are checking for values less than the statistic, the p-value measures the area to the left of the t statistic. 
+
+***
+
+<!-- 11. To have more evidence against the null hypothesis, our test statistic should be larger/ smaller (choose one) in magnitude. Briefly explain. -->
+## **11** Our test statistic should be **larger in magnitude.** 
+We want to provide more evidence against $\textit{H}_0$. The test statistic results in a p-value, if the p-value is larger than the critical value, we can reject $\textit{H}_0$. Therefore we will hope for a test statistic that is large in magnitude. 
+
+***
+
+<!-- 12. How does increasing the difference between the sample mean and the population mean under the null hypothesis affect the test statistic and the evidence against the null hypothesis? -->
+## **12** Wider difference between sample mean and population mean increases standard deviation, which increases the test statistic and provides more evidence against $\textit{H}_0$.
+
+***
+
+<!-- 13. How does increasing the sample size affect the test statistic and the evidence against the null hypothesis? -->
+
+## **13** Increasing the sample size increases the test statistic, providing more evidence against $\textit{H}_0$.
+
+***
+
+<!-- 14. Use R to obtain the critical values of the following hypothesis tests: -->
+<!-- (a) H0 = 3:5;Ha != 3.5, with $\alpha$ = 0:08 and n = 96. -->
+<!-- (b) H0 = 75;Ha < 75, with $\alpha$ = 0:12 and n = 43. -->
+<!-- (c) H0 = 10;Ha > 10, with $\alpha$ = 0:045 and n = 132. -->
+<!-- Hint: you will need either the qt() or pt() function. -->
+
+## **14** calculating critical values
+```{R, echo=TRUE}
+crit_value <- function(alpha, n, sided='two'){
+  df1 <- n-1
+  if(sided == 'two'){
+    return(abs(qt(1 - alpha/2, df1))) #two sided
+  } else if(sided == 'one') {
+    return(qt(1 - alpha, df1)) #one sided
+  }
+}
+crit_value(0.08, 96, 'two')
+crit_value(0.12, 43, 'one')
+crit_value(0.045, 132, 'one')
+
+```
+***
+<!-- 15. Use R to obtain the p-values of the following hypothesis tests: -->
+<!-- (a) H0: $\mu$ = 48; Ha: $\mu$ != 48, with t-stat = 2.14 and n = 50. -->
+<!-- (b) H0: $\mu$ = 3 ; Ha: $\mu$ > 3, with t- stat = 0.78 and n = 316. -->
+<!-- (c) H0: $\mu$ = 12; Ha: $\mu$ < 12, with t-stat = 1.57 and n = 34. -->
+<!-- Hint: you will need either the qt() or pt() function. -->
+## **15** calculating p values
+```{R, echo=TRUE}
+
+p_value <- function(t_stat, n, direction='two'){
+  df1 <- n-1
+  
+  if(direction == 'two'){
+    pval = 2 * (1-pt(t_stat, df1)) #not equal to stat
+  } else if(direction == 'more') {
+    pval = 1-pt(t_stat,df1) #greater than stat
+  } else if(direction == 'less') {
+    pval = pt(t_stat,df1) #less than stat
+  }
+  
+  return(round(pval, roundme))
+}
+p_value(2.14, 50, 'two')
+p_value(0.78, 316, 'more')
+p_value(1.57, 34, 'less')
+
+```
+
+<!-- 16. The 10-year historical average yield of corn in the United States is 160 bushels per acre. A survey of 50 farmers this year gives a sample mean yield of 158.4 bushels per acre, with a standard deviation of 5 bushels per acre. Does this sample provide evidence that the yield of corn has decreased from the 10-year historical average? Conduct an appropriate hypothesis test. -->
+<!-- (a) State the null and alternative hypotheses. -->
+<!-- (b) Calculate the test-statistic. -->
+<!-- (c) Find the p-value and critical value. -->
+<!-- (d) State a conclusion in context. -->
+<!-- (e) How would you interpret the calculated p-value? -->
+
+##**16** Corn yield for bushels per acre. 
+a. $\textit{H}_0$: $\mu$  = 160 bushels per acre | $\textit{H}_a$: $\mu$ < 160 bushels per acre
+b. 
+```{R, echo=TRUE}
+s_mean = 158.4
+n = 50
+s_SD = 5
+test_value = 160
+
+df = n - 1
+tval = (s_mean - test_value) / (s_SD / sqrt(n))
+print(paste('t (test statistic) = ', round(tval, roundme)))
+```
+c.
+```{R, echo=TRUE}
+print(paste('p value from that test statistic = ', p_value(tval, n, direction='less')))
+print(paste('the critical value = ', crit_value(0.05,n, sided ='one')))
+```
+d. In conclusion the magnitude of the test statistic is greater than the critical value, so we can reject the null hypothesis. Our data support the alternative hypothesis that corn yield has decreased from the 10 yr avg. 
+
+e. If 160 bushels per acre is the true population mean, the probability of getting our test results or less is 0.0141. 

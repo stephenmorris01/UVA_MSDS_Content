@@ -40,6 +40,8 @@ calculate_sampledist_zscore_AUC("cherry tomato machine", "cherry tomato pack", 1
 #calculate_sampledist_zscore_AUC(title, 210.58, 405.17, 50, 400, 1000)
 
 
+
+
 ####Estimate Population Mean####
 
 #confidence intervals: estimate range of plausible values of unknown parameter due to uncertainty
@@ -118,3 +120,8 @@ if( bound_lower <=  test_val & test_val <= bound_upper ) {
 }
 
 #probability that patterns are a real feature and not due to chance 
+
+alpha <- 0.1 
+deg_free <- 10
+crit_val <- qt(alpha, deg_free) #quantile function, one sided
+crit_val_2s <- abs(qt(alpha/2, deg_free)) #two sided
