@@ -1,9 +1,9 @@
 ##read data file in
 
-read.table("purity.txt", header=TRUE ,sep="")
+read.table("./purity.txt", header=TRUE ,sep="")
 
 ## store data file with the variable name data
-data<-read.table("purity.txt", header=TRUE ,sep="")
+data<-read.table("./purity.txt", header=TRUE ,sep="")
 
 ##list the components in your data file
 names(data)

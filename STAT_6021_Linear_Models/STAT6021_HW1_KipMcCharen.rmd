@@ -18,7 +18,7 @@ editor_options:
 
 <!-- of the two variables. How would you describe the relationship between the two variables? -->
 ##(1b) Scatterplot 
-```{r setup, include=FALSE}
+```{r setup, include=TRUE, echo=TRUE}
 print(names(faithful))
 print(head(faithful))
 print(summary(faithful))
@@ -34,18 +34,28 @@ I would describe the relationship between the two variables as grouped at extrem
 ***
 <!-- #(c) What is the correlation between the eruption times and waiting times for the next eruption? #Interpret this correlation contextually. How reliable is this interpretation?  -->
 ##(1c) correlation
-```{r setup, include=FALSE}
+
+```{r}
 cor(faithful$waiting, faithful$eruptions)
+
+# bp_data_LSR <- lm(BP~weight)
+# summary(bp_data_LSR)
+# B1 <- bp_data_LSR$coef[2]
+# print(B1)
 ```
+confidence is i, prediction is h
+
 Even though the correlation is 0.9, this interpretation is not extremely reliable due to the obviously imperfect relationship in the graph. 
 
 ***
 
 ##(1d) Fit linear regression
-```{r setup, include=FALSE}
-result<-lm(faithful$waiting~faithful$eruptions)
+
+```{r}
+result <- lm(faithful$waiting~faithful$eruptions)
 summary(result)
 ```
+
 anova(result)
 
 #SSE + SSR = SST
@@ -73,32 +83,55 @@ print(5.914 ^ 2)
  # df2 = n - 2
 # look at anova and take DF from there 
 
-```
+(e) Interpret the values of beta hat 1, beta hat 0 contextually. Does the value of beta hat 0 make sense in this context?
 
+(f) Use the anova() function to produce the ANOVA table for this linear regression. What is the value of the ANOVA F statistic? What null and alternative hypotheses are being tested here? What is a relevant conclusion based on this ANOVA F statistic?
+3.876 f critical value qf
+qf(0.95, 1,270)
 
+writing out hypothesis statement -> we reject the null because f stat is significantly greater than f value. Just checking if there's a linear correlation between the two. 
 
-```{r cars}
+(g) Obtain the 95% confidence interval for the slope, beta1. Is this confidence interval consistent with your conclusion from part 1f? Briefly explain.
+CI 10.1 and 11.3 beta1 is way outside, so we can reject it
+
+(h) The latest eruption at Old Faithful lasted for 3.5 minutes. Obtain an appropriate 95% interval that predicts the waiting time for the next eruption.
+just plug 3.5 into slope of the line equation?
+thought he wanted a prediction interval, same as previous except chg key to prediction
+59.36 and 82.69
+
+(i) What is the 95% interval for the average waiting time for the next eruption among current eruptions that last 3.5 minutes? 
+71.3 and ____
+
+(j) Create a residual plot, an ACF plot of the residuals, and the QQ plot of the residuals. Based on these plots, are the regression assumptions met? Is your answer surprising, given the context of this data set?
+how to do residual plot?
 
 # 2. (R required) For this question, we will use the cornnit data set from the faraway package. Be sure to install and load the faraway package [faraway], and then load the data set. The data explore the relationship between corn yield (bushels per acre) and nitrogen (pounds per acre) fertilizer application in a study carried out in Wisconsin.
+
+
+```{r}
+
 library(faraway)
-#detach(faithful)
 attach(cornnit)
 print(names(cornnit))
 print(head(cornnit))
 print(summary(cornnit))
 print(nrow(cornnit))
+
+```
+
 # (a) What is the response variable and predictor for this study? Create a scatterplot of the data, and interpret the scatterplot.
 #   Predictor: nitrogen, pounds per acre of nitrogen fertilizer used on corn fields
 #   Response: yield, bushels per acre of corn grown in the fields which were amended with nitrogen fertilizer
 
 # (b) Fit a linear regression without any transformations. Create the corresponding residual plot. Based only on the residual plot, what transformation will you consider first? Be sure to explain your reason.
+```{r}
 lreg<-lm(nitrogen~yield)
 print(lreg)
 plot(x=cornnit$nitrogen, y=cornnit$yield, 
      xlab='Pounds Per Acre', 
      ylab='Bushesl Per Acre', 
      main='Plot Corn Yield and N Fertilizer')
-# 
+```
 
 # (c) Create a Box Cox plot for the profile loglikelihoods. How does this plot aid in your data transformation?
 #   
@@ -110,4 +143,68 @@ plot(x=cornnit$nitrogen, y=cornnit$yield,
 # Note: in part 2d, there are a number of solutions that will work. You must clearly
 # document your reasons for each of your transformations.
 
+
+***
+
+3. (No R required) A substance used in biological and medical research is shipped by airfreight to users in cartons of 1000 ampules. The data consist of 10 shipments. The variables are number of times the carton was transferred from one aircraft to another during the shipment route (transfer), and the number of ampules found to be broken upon arrival (broken). We want to t a simple linear regression. A simple linear regression model is tted using R. You may assume all the regression assumptions are met. The corresponding output from R is shown next, with some values missing.
+
+The following values are also provided for you, and may be used for the rest of this question: x = 1,
+P10
+i=1
+(xi 􀀀 x)2 = 10.
+
+(a) Calculate the value of R2, and interpret this value in context.
+Rsq is the sumsq regression / sum sqr total 
+
+```{r}
+# ss regr + ss resid = ss total 
+# 
+# from ANOVA 
+#   SSR / (SSR + SSP)
+#   160 / (160 + 7.6)
+#   
+#   
+#   F == 160 / 2.2 = 72.72
+#     f critical 5.32 which is < f val
+#   t test = 8.5288
 ```
+(b) Carry out a hypothesis test to assess if there is a linear relationship between the variables of interest.
+
+(c) Calculate a 95% confidence interval that estimates the unknown value of the population slope.
+  t multiplier <- 2.36 used qt
+  test statistic +- multiplier * standard error
+  
+(d) A consultant believes the mean number of broken ampules when no transfers are made is dierent from 9. Conduct an appropriate hypothesis test (state the hypotheses statements, calculate the test statistic, and write the corresponding conclusion in context, in response to his belief).
+```{r}
+calculated_t_statistics <- -10.66
+# 4.0-9.0 / 4.69
+# 
+# 10.2-9 /  SE in coefficients table
+# how do we know we're doing intercept value and not regression?
+# equation in paragraph? 2.3? had this equation
+# no transfers means x = 0, just get y intercept 
+# t statistic 1.809
+# pvalue? 0.1080
+# 
+# critical value <- 2.306
+
+```
+***
+
+4. (No R required) A chemist studied the concentration of a solution, y, over time, x, by tting a simple linear regression. The scatterplot of the dataset, and the residual plot from the regression model are shown in Figure 1.
+
+(a) The prole log-likelihoods for the parameter, , of the Box-Cox power transfor- mation, is shown in Figure 2. Your classmate says that you should apply a log transformation to the response variable rst. Do you agree with your classmate?
+Be sure to justify your answer.
+
+(b) Your classmate is adament on applying the log transformation to the response variable, and ts the regression model. The R output is shown in Figure 3. Write down the estimated regression equation for this model. How do we interpret the regression coecients ^ 1 and ^ 0 in context?
+
+***
+
+5. Reminder: please complete the Module 1 to 4 Guided Question Set Participation Self- and Peer-Evaluation Questions via Test & Quizzes by July 21.
+
+Figure 1: Scatterplot of Concentration of Solution against Time (left). Residual Plot from
+SLR (right)
+Figure 2: Prole Log-likelihoods for $\lambda$
+Figure 3: R Output after Transforming Response Variable.
+
+predict.lm(lR results, sliced df)  needs corresponding value online

@@ -125,3 +125,6 @@ alpha <- 0.1
 deg_free <- 10
 crit_val <- qt(alpha, deg_free) #quantile function, one sided
 crit_val_2s <- abs(qt(alpha/2, deg_free)) #two sided
+
+###
+  

@@ -1,0 +1,4698 @@
+{
+	"startIndex": 0,
+	"endIndex": 59,
+	"countRaw": 89808,
+	"recommendedCountRaw": 20,
+	"count": "89,808",
+	"availableCount": "89,808",
+	"sortColumn": "default",
+	"sortDirection": "asc",
+	"results": [
+		{
+			"detailsPageUrl": "./diamond-details/LD13968273",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Jul 22"
+			],
+			"dateSet": [
+				"Jul 23"
+			],
+			"price": [
+				"$255"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,109"
+			],
+			"skus": [
+				"LD13968273"
+			],
+			"id": "LD13968273",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"64.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "3.85 x 3.84 x 2.46 mm",
+					"labelSmall": "3.85 x 3.84 x 2.46"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8375235,
+			"sold": false,
+			"quickShip": true
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13958557",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$259"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,126"
+			],
+			"skus": [
+				"LD13958557"
+			],
+			"id": "LD13958557",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"61.1"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"63.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "3.94 x 3.96 x 2.41 mm",
+					"labelSmall": "3.94 x 3.96 x 2.41"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8941792,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13968250",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Jul 22"
+			],
+			"dateSet": [
+				"Jul 23"
+			],
+			"price": [
+				"$259"
+			],
+			"strikethroughPrice": [
+				"$274"
+			],
+			"pricePerCarat": [
+				"$1,126"
+			],
+			"skus": [
+				"LD13968250"
+			],
+			"id": "LD13968250",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"62.6"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "3.91 x 3.90 x 2.44 mm",
+					"labelSmall": "3.91 x 3.90 x 2.44"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8480984,
+			"sold": false,
+			"quickShip": true
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD12310050",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$260"
+			],
+			"strikethroughPrice": [
+				"$273"
+			],
+			"pricePerCarat": [
+				"$839"
+			],
+			"skus": [
+				"LD12310050"
+			],
+			"id": "LD12310050",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"G"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.5"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6291647573/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6291647573/1/",
+			"measurements": [
+				{
+					"label": "4.32 x 4.36 x 2.71 mm",
+					"labelSmall": "4.32 x 4.36 x 2.71"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8962754,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13713763",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$260"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,130"
+			],
+			"skus": [
+				"LD13713763"
+			],
+			"id": "LD13713763",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS2"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"59.3"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"61.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "3.99 x 4.02 x 2.38 mm",
+					"labelSmall": "3.99 x 4.02 x 2.38"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8212312,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13934863",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$261"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$842"
+			],
+			"skus": [
+				"LD13934863"
+			],
+			"id": "LD13934863",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"G"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1283527057/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-1283527057/1/",
+			"measurements": [
+				{
+					"label": "4.34 x 4.32 x 2.69 mm",
+					"labelSmall": "4.34 x 4.32 x 2.69"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.88695467,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13885618",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$262"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$873"
+			],
+			"skus": [
+				"LD13885618"
+			],
+			"id": "LD13885618",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6281165479/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6281165479/1/",
+			"measurements": [
+				{
+					"label": "4.30 x 4.28 x 2.67 mm",
+					"labelSmall": "4.30 x 4.28 x 2.67"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9114641,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13958574",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$264"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,148"
+			],
+			"skus": [
+				"LD13958574"
+			],
+			"id": "LD13958574",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"58.8"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"61.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "3.99 x 4.03 x 2.36 mm",
+					"labelSmall": "3.99 x 4.03 x 2.36"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.85409427,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13974172",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 11"
+			],
+			"dateSet": [
+				"Aug 12"
+			],
+			"price": [
+				"$264"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$880"
+			],
+			"skus": [
+				"LD13974172"
+			],
+			"id": "LD13974172",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"64.0"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.20 x 4.17 x 2.68 mm",
+					"labelSmall": "4.20 x 4.17 x 2.68"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.92533207,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD12744303",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$266"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$887"
+			],
+			"skus": [
+				"LD12744303"
+			],
+			"id": "LD12744303",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.1"
+			],
+			"fluorescence": [
+				"Medium Blue"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"59.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.34 x 4.33 x 2.65 mm",
+					"labelSmall": "4.34 x 4.33 x 2.65"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8637517,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13994441",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$266"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$887"
+			],
+			"skus": [
+				"LD13994441"
+			],
+			"id": "LD13994441",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"G"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"63.0"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"62.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2356504121/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/27/imaged/gia-2356504121/1/",
+			"measurements": [
+				{
+					"label": "4.21 x 4.18 x 2.64 mm",
+					"labelSmall": "4.21 x 4.18 x 2.64"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9286666,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13893395",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$267"
+			],
+			"strikethroughPrice": [
+				"$282"
+			],
+			"pricePerCarat": [
+				"$890"
+			],
+			"skus": [
+				"LD13893395"
+			],
+			"id": "LD13893395",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.4"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"61.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.30 x 4.28 x 2.63 mm",
+					"labelSmall": "4.30 x 4.28 x 2.63"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8775812,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13893377",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$269"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$868"
+			],
+			"skus": [
+				"LD13893377"
+			],
+			"id": "LD13893377",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"60.0"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"60.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.42 x 4.40 x 2.65 mm",
+					"labelSmall": "4.42 x 4.40 x 2.65"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8497391,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13885977",
+			"carat": [
+				"0.32"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$270"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$844"
+			],
+			"skus": [
+				"LD13885977"
+			],
+			"id": "LD13885977",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"60.0"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6271481150/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6271481150/1/",
+			"measurements": [
+				{
+					"label": "4.44 x 4.43 x 2.66 mm",
+					"labelSmall": "4.44 x 4.43 x 2.66"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9258098,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD05642297",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$271"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,129"
+			],
+			"skus": [
+				"LD05642297"
+			],
+			"id": "LD05642297",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS2"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"60.9"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1169402652/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/63/imaged/gia-1169402652/1/",
+			"measurements": [
+				{
+					"label": "4.04 x 4.03 x 2.46 mm",
+					"labelSmall": "4.04 x 4.03 x 2.46"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9811741,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701038",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$271"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,129"
+			],
+			"skus": [
+				"LD13701038"
+			],
+			"id": "LD13701038",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"66.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"61.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2347973863/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-2347973863/1/",
+			"measurements": [
+				{
+					"label": "3.80 x 3.81 x 2.52 mm",
+					"labelSmall": "3.80 x 3.81 x 2.52"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.91382277,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701047",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$271"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,178"
+			],
+			"skus": [
+				"LD13701047"
+			],
+			"id": "LD13701047",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"63.3"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6342972738/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-6342972738/1/",
+			"measurements": [
+				{
+					"label": "3.82 x 3.84 x 2.43 mm",
+					"labelSmall": "3.82 x 3.84 x 2.43"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.92843634,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701068",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$271"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,129"
+			],
+			"skus": [
+				"LD13701068"
+			],
+			"id": "LD13701068",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"63.2"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7342981841/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-7342981841/1/",
+			"measurements": [
+				{
+					"label": "3.90 x 3.94 x 2.48 mm",
+					"labelSmall": "3.90 x 3.94 x 2.48"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.92118764,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701069",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$271"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,178"
+			],
+			"skus": [
+				"LD13701069"
+			],
+			"id": "LD13701069",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"64.6"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1345981873/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-1345981873/1/",
+			"measurements": [
+				{
+					"label": "3.82 x 3.83 x 2.47 mm",
+					"labelSmall": "3.82 x 3.83 x 2.47"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9068769,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13903751",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$271"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$903"
+			],
+			"skus": [
+				"LD13903751"
+			],
+			"id": "LD13903751",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"60.0"
+			],
+			"fluorescence": [
+				"Medium"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6341456892/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6341456892/1/",
+			"measurements": [
+				{
+					"label": "4.39 x 4.40 x 2.64 mm",
+					"labelSmall": "4.39 x 4.40 x 2.64"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.92261255,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13887869",
+			"carat": [
+				"0.32"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$272"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$850"
+			],
+			"skus": [
+				"LD13887869"
+			],
+			"id": "LD13887869",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"H"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.9"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2297452952/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-2297452952/1/",
+			"measurements": [
+				{
+					"label": "4.38 x 4.35 x 2.70 mm",
+					"labelSmall": "4.38 x 4.35 x 2.70"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9193507,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13919328",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$272"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$907"
+			],
+			"skus": [
+				"LD13919328"
+			],
+			"id": "LD13919328",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.5"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2205956548/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-2205956548/1/",
+			"measurements": [
+				{
+					"label": "4.24 x 4.27 x 2.66 mm",
+					"labelSmall": "4.24 x 4.27 x 2.66"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9467206,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13885885",
+			"carat": [
+				"0.33"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$273"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$827"
+			],
+			"skus": [
+				"LD13885885"
+			],
+			"id": "LD13885885",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.5"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1186363177/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-1186363177/1/",
+			"measurements": [
+				{
+					"label": "4.41 x 4.39 x 2.75 mm",
+					"labelSmall": "4.41 x 4.39 x 2.75"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9265267,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13886117",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$273"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$881"
+			],
+			"skus": [
+				"LD13886117"
+			],
+			"id": "LD13886117",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.8"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2254439960/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-2254439960/1/",
+			"measurements": [
+				{
+					"label": "4.35 x 4.32 x 2.68 mm",
+					"labelSmall": "4.35 x 4.32 x 2.68"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9019779,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13886118",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$273"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$881"
+			],
+			"skus": [
+				"LD13886118"
+			],
+			"id": "LD13886118",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.7"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6183348016/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6183348016/1/",
+			"measurements": [
+				{
+					"label": "4.38 x 4.34 x 2.69 mm",
+					"labelSmall": "4.38 x 4.34 x 2.69"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.89888865,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13903604",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$273"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$910"
+			],
+			"skus": [
+				"LD13903604"
+			],
+			"id": "LD13903604",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"63.4"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.20 x 4.22 x 2.67 mm",
+					"labelSmall": "4.20 x 4.22 x 2.67"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9137754,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13351949",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$274"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,191"
+			],
+			"skus": [
+				"LD13351949"
+			],
+			"id": "LD13351949",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"H"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"59.6"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"62.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2346321573/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/27/imaged/gia-2346321573/1/",
+			"measurements": [
+				{
+					"label": "4.03 x 4.02 x 2.40 mm",
+					"labelSmall": "4.03 x 4.02 x 2.40"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9524585,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13895808",
+			"carat": [
+				"0.33"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$274"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$830"
+			],
+			"skus": [
+				"LD13895808"
+			],
+			"id": "LD13895808",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"63.0"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1318098437/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-1318098437/1/",
+			"measurements": [
+				{
+					"label": "4.44 x 4.40 x 2.79 mm",
+					"labelSmall": "4.44 x 4.40 x 2.79"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.92885154,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13974053",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 11"
+			],
+			"dateSet": [
+				"Aug 12"
+			],
+			"price": [
+				"$274"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$913"
+			],
+			"skus": [
+				"LD13974053"
+			],
+			"id": "LD13974053",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"60.5"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.37 x 4.35 x 2.64 mm",
+					"labelSmall": "4.37 x 4.35 x 2.64"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8257197,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD12146336",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$275"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$887"
+			],
+			"skus": [
+				"LD12146336"
+			],
+			"id": "LD12146336",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.0"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-5286282111/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-5286282111/1/",
+			"measurements": [
+				{
+					"label": "4.35 x 4.33 x 2.69 mm",
+					"labelSmall": "4.35 x 4.33 x 2.69"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8914126,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13108672",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$275"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$887"
+			],
+			"skus": [
+				"LD13108672"
+			],
+			"id": "LD13108672",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"65.3"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1333903285/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-1333903285/1/",
+			"measurements": [
+				{
+					"label": "4.17 x 4.15 x 2.72 mm",
+					"labelSmall": "4.17 x 4.15 x 2.72"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9151534,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701045",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$275"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,146"
+			],
+			"skus": [
+				"LD13701045"
+			],
+			"id": "LD13701045",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"61.8"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"63.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1343972853/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-1343972853/1/",
+			"measurements": [
+				{
+					"label": "3.92 x 3.95 x 2.43 mm",
+					"labelSmall": "3.92 x 3.95 x 2.43"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9147236,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701055",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$275"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,146"
+			],
+			"skus": [
+				"LD13701055"
+			],
+			"id": "LD13701055",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"64.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-3345972710/still_230x230.jpg?v=2",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-3345972710/2/",
+			"measurements": [
+				{
+					"label": "3.92 x 3.95 x 2.52 mm",
+					"labelSmall": "3.92 x 3.95 x 2.52"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9147236,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13885884",
+			"carat": [
+				"0.33"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$275"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$833"
+			],
+			"skus": [
+				"LD13885884"
+			],
+			"id": "LD13885884",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.4"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1298237138/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-1298237138/1/",
+			"measurements": [
+				{
+					"label": "4.45 x 4.42 x 2.77 mm",
+					"labelSmall": "4.45 x 4.42 x 2.77"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9177862,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13951610",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$275"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$917"
+			],
+			"skus": [
+				"LD13951610"
+			],
+			"id": "LD13951610",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"I"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"64.6"
+			],
+			"fluorescence": [
+				"Medium"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"62.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.16 x 4.13 x 2.68 mm",
+					"labelSmall": "4.16 x 4.13 x 2.68"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.85063213,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701050",
+			"carat": [
+				"0.26"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$276"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,062"
+			],
+			"skus": [
+				"LD13701050"
+			],
+			"id": "LD13701050",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"H"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"64.8"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-1348972633/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-1348972633/1/",
+			"measurements": [
+				{
+					"label": "3.97 x 3.98 x 2.58 mm",
+					"labelSmall": "3.97 x 3.98 x 2.58"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8843208,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701057",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$276"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,150"
+			],
+			"skus": [
+				"LD13701057"
+			],
+			"id": "LD13701057",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"61.4"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"59.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7348972599/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-7348972599/1/",
+			"measurements": [
+				{
+					"label": "3.95 x 4.00 x 2.44 mm",
+					"labelSmall": "3.95 x 4.00 x 2.44"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.87688434,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701072",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$276"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,150"
+			],
+			"skus": [
+				"LD13701072"
+			],
+			"id": "LD13701072",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"63.4"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"55.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7342973499/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-7342973499/1/",
+			"measurements": [
+				{
+					"label": "3.95 x 3.98 x 2.51 mm",
+					"labelSmall": "3.95 x 3.98 x 2.51"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8694741,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13865636",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$276"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$920"
+			],
+			"skus": [
+				"LD13865636"
+			],
+			"id": "LD13865636",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.0"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"60.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6351165064/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/27/imaged/gia-6351165064/1/",
+			"measurements": [
+				{
+					"label": "4.30 x 4.29 x 2.62 mm",
+					"labelSmall": "4.30 x 4.29 x 2.62"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.919735,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD11975555",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$277"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,204"
+			],
+			"skus": [
+				"LD11975555"
+			],
+			"id": "LD11975555",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"D"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"64.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"59.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7316886577/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-7316886577/1/",
+			"measurements": [
+				{
+					"label": "3.83 x 3.84 x 2.46 mm",
+					"labelSmall": "3.83 x 3.84 x 2.46"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9303165,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13701046",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$277"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,204"
+			],
+			"skus": [
+				"LD13701046"
+			],
+			"id": "LD13701046",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"G"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"63.8"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6345973442/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-6345973442/1/",
+			"measurements": [
+				{
+					"label": "3.82 x 3.86 x 2.45 mm",
+					"labelSmall": "3.82 x 3.86 x 2.45"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9304915,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13919384",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$277"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$894"
+			],
+			"skus": [
+				"LD13919384"
+			],
+			"id": "LD13919384",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.0"
+			],
+			"fluorescence": [
+				"Strong"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2205979652/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-2205979652/1/",
+			"measurements": [
+				{
+					"label": "4.33 x 4.34 x 2.69 mm",
+					"labelSmall": "4.33 x 4.34 x 2.69"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8930542,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD12744307",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$278"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$927"
+			],
+			"skus": [
+				"LD12744307"
+			],
+			"id": "LD12744307",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"62.3"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"60.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6291695966/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6291695966/1/",
+			"measurements": [
+				{
+					"label": "4.22 x 4.21 x 2.62 mm",
+					"labelSmall": "4.22 x 4.21 x 2.62"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9449987,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13705277",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$278"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$897"
+			],
+			"skus": [
+				"LD13705277"
+			],
+			"id": "LD13705277",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.5"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.33 x 4.30 x 2.70 mm",
+					"labelSmall": "4.33 x 4.30 x 2.70"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8139838,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13833255",
+			"carat": [
+				"0.32"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$278"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$869"
+			],
+			"skus": [
+				"LD13833255"
+			],
+			"id": "LD13833255",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.3"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"58.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-5283460230/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-5283460230/1/",
+			"measurements": [
+				{
+					"label": "4.39 x 4.36 x 2.73 mm",
+					"labelSmall": "4.39 x 4.36 x 2.73"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.89816207,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13893373",
+			"carat": [
+				"0.32"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$278"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$869"
+			],
+			"skus": [
+				"LD13893373"
+			],
+			"id": "LD13893373",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"E"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"60.8"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.43 x 4.40 x 2.68 mm",
+					"labelSmall": "4.43 x 4.40 x 2.68"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.85644,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13973233",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$278"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$927"
+			],
+			"skus": [
+				"LD13973233"
+			],
+			"id": "LD13973233",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"63.7"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"59.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7346737415/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-7346737415/1/",
+			"measurements": [
+				{
+					"label": "4.21 x 4.23 x 2.69 mm",
+					"labelSmall": "4.21 x 4.23 x 2.69"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.92918503,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13973234",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$278"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$927"
+			],
+			"skus": [
+				"LD13973234"
+			],
+			"id": "LD13973234",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"64.2"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7346734810/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-7346734810/1/",
+			"measurements": [
+				{
+					"label": "4.16 x 4.20 x 2.68 mm",
+					"labelSmall": "4.16 x 4.20 x 2.68"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9261062,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD10176491",
+			"carat": [
+				"0.24"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$279"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,162"
+			],
+			"skus": [
+				"LD10176491"
+			],
+			"id": "LD10176491",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"63.1"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-3285548087/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-3285548087/1/",
+			"measurements": [
+				{
+					"label": "3.95 x 3.96 x 2.49 mm",
+					"labelSmall": "3.95 x 3.96 x 2.49"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.903316,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13266427",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$279"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$900"
+			],
+			"skus": [
+				"LD13266427"
+			],
+			"id": "LD13266427",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"60.6"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"62.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2344292673/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-2344292673/1/",
+			"measurements": [
+				{
+					"label": "4.37 x 4.35 x 2.64 mm",
+					"labelSmall": "4.37 x 4.35 x 2.64"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.88551414,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13865617",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$279"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$930"
+			],
+			"skus": [
+				"LD13865617"
+			],
+			"id": "LD13865617",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"G"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"60.0"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Good"
+			],
+			"table": [
+				"66.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.26 x 4.22 x 2.54 mm",
+					"labelSmall": "4.26 x 4.22 x 2.54"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.81925315,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13970427",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$279"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$930"
+			],
+			"skus": [
+				"LD13970427"
+			],
+			"id": "LD13970427",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.2"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"56.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6321162596/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-6321162596/1/",
+			"measurements": [
+				{
+					"label": "4.30 x 4.27 x 2.67 mm",
+					"labelSmall": "4.30 x 4.27 x 2.67"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.93703717,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD09851483",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$903"
+			],
+			"skus": [
+				"LD09851483"
+			],
+			"id": "LD09851483",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"H"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Good",
+					"labelSmall": "Good"
+				}
+			],
+			"depth": [
+				"63.5"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"59.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6271378196/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/2/imaged/gia-6271378196/1/",
+			"measurements": [
+				{
+					"label": "4.22 x 4.26 x 2.69 mm",
+					"labelSmall": "4.22 x 4.26 x 2.69"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.88925254,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD10033135",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$933"
+			],
+			"skus": [
+				"LD10033135"
+			],
+			"id": "LD10033135",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"61.4"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"60.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-7278784602/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-7278784602/1/",
+			"measurements": [
+				{
+					"label": "4.29 x 4.27 x 2.63 mm",
+					"labelSmall": "4.29 x 4.27 x 2.63"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9131562,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13585674",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,217"
+			],
+			"skus": [
+				"LD13585674"
+			],
+			"id": "LD13585674",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"59.0"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"60.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6342971735/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/27/imaged/gia-6342971735/1/",
+			"measurements": [
+				{
+					"label": "4.03 x 4.01 x 2.37 mm",
+					"labelSmall": "4.03 x 4.01 x 2.37"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9241798,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13869254",
+			"carat": [
+				"0.30"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$933"
+			],
+			"skus": [
+				"LD13869254"
+			],
+			"id": "LD13869254",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"VS1"
+			],
+			"color": [
+				"J"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"60.7"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"61.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2336817758/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/27/imaged/gia-2336817758/1/",
+			"measurements": [
+				{
+					"label": "4.30 x 4.28 x 2.60 mm",
+					"labelSmall": "4.30 x 4.28 x 2.60"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.9281794,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13893358",
+			"carat": [
+				"0.32"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$875"
+			],
+			"skus": [
+				"LD13893358"
+			],
+			"id": "LD13893358",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"61.9"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.42 x 4.40 x 2.73 mm",
+					"labelSmall": "4.42 x 4.40 x 2.73"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8425508,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13893388",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 6"
+			],
+			"dateSet": [
+				"Aug 7"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$903"
+			],
+			"skus": [
+				"LD13893388"
+			],
+			"id": "LD13893388",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI2"
+			],
+			"color": [
+				"F"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"62.6"
+			],
+			"fluorescence": [
+				"None"
+			],
+			"lxwRatio": [
+				"1.01"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				false
+			],
+			"visualizationImageUrl": null,
+			"v360BaseUrl": null,
+			"measurements": [
+				{
+					"label": "4.35 x 4.31 x 2.71 mm",
+					"labelSmall": "4.35 x 4.31 x 2.71"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.8218326,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13919385",
+			"carat": [
+				"0.31"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$903"
+			],
+			"skus": [
+				"LD13919385"
+			],
+			"id": "LD13919385",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"K"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Very Good",
+					"labelSmall": "Very Good"
+				}
+			],
+			"depth": [
+				"62.9"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Excellent"
+			],
+			"symmetry": [
+				"Excellent"
+			],
+			"table": [
+				"57.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-2205956536/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/50/imaged/gia-2205956536/1/",
+			"measurements": [
+				{
+					"label": "4.28 x 4.30 x 2.70 mm",
+					"labelSmall": "4.28 x 4.30 x 2.70"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.83848214,
+			"sold": false,
+			"quickShip": false
+		},
+		{
+			"detailsPageUrl": "./diamond-details/LD13939631",
+			"carat": [
+				"0.23"
+			],
+			"date": [
+				"Aug 14"
+			],
+			"dateSet": [
+				"Aug 17"
+			],
+			"price": [
+				"$280"
+			],
+			"strikethroughPrice": null,
+			"pricePerCarat": [
+				"$1,217"
+			],
+			"skus": [
+				"LD13939631"
+			],
+			"id": "LD13939631",
+			"shapeCode": [
+				"RD"
+			],
+			"shapeName": [
+				"Round"
+			],
+			"clarity": [
+				"SI1"
+			],
+			"color": [
+				"D"
+			],
+			"culet": [
+				"None"
+			],
+			"cut": [
+				{
+					"label": "Ideal",
+					"labelSmall": "Ideal"
+				}
+			],
+			"depth": [
+				"59.4"
+			],
+			"fluorescence": [
+				"Faint"
+			],
+			"lxwRatio": [
+				"1.00"
+			],
+			"polish": [
+				"Very Good"
+			],
+			"symmetry": [
+				"Very Good"
+			],
+			"table": [
+				"60.0"
+			],
+			"hasVisualization": [
+				true
+			],
+			"visualizationImageUrl": "https://bnsec.bluenile.com/bnsecure/diamondvis/gia-6351283749/still_230x230.jpg",
+			"v360BaseUrl": "https://bluenile.v360.in/27/imaged/gia-6351283749/1/",
+			"measurements": [
+				{
+					"label": "4.04 x 4.02 x 2.40 mm",
+					"labelSmall": "4.04 x 4.02 x 2.40"
+				}
+			],
+			"willArriveForHoliday": false,
+			"imageUrl": null,
+			"sellingIndex": 0.91789275,
+			"sold": false,
+			"quickShip": false
+		}
+	]
+}
