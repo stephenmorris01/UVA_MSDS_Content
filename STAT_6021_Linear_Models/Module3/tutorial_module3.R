@@ -84,12 +84,13 @@ acf(result$residuals, main="Auto-Correlation Function of Residuals")
 
 
 
+
 data <- read.table("defects.txt", header=TRUE ,sep="")
-result<-lm(data$defects~data$weeks)
-plot(data$weeks,data$defects, main = "Scatterplot")
-abline(result, col = "red")
-plot(result$fitted.values,result$residuals, main="Plot of residuals against fits")
-abline(h = 0, col = "red")
+# result<-lm(data$defects~data$weeks)
+# plot(data$weeks,data$defects, main = "Scatterplot")
+# abline(result, col = "red")
+# plot(result$fitted.values,result$residuals, main="Plot of residuals against fits")
+# abline(h = 0, col = "red")
 
 
 data$fittedDefects <- data$defects^(-0.2)
@@ -99,6 +100,8 @@ plot(data$weeks,data$fittedDefects, main = "Scatterplot")
 abline(result, col = "red")
 plot(result$fitted.values,result$residuals, main="Plot of residuals against fits")
 abline(h = 0, col = "red")
+
+
 
 
 ##Data in, plots out

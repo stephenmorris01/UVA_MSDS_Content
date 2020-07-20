@@ -23,7 +23,9 @@ plot(hydro,purity)
 plot(purity~hydro)
 
 ##label axes and provide a title
-plot(hydro,purity,xlab="Percent of Hydrocarbons", ylab="Purity of Oxygen", main="Plot of Purity of Oxygen against Percent of Hydrocarbons")
+plot(hydro,purity,xlab="Percent of Hydrocarbons", 
+     ylab="Purity of Oxygen", 
+     main="Plot of Purity of Oxygen against Percent of Hydrocarbons")
 
 ##split the plotting device so plots are displayed in a 1 by 2 matrix
 par(mfrow=c(1,2))
