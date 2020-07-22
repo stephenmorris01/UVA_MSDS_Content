@@ -1,0 +1,116 @@
+---
+title: "Module5_Guided"
+author: "Kip McCharen"
+date: "7/22/2020"
+output: pdf_document
+---
+
+
+***
+  
+## Question 1
+  
+
+```{r setup, include=FALSE}
+library(faraway)
+data(seatpos)
+attach(seatpos)
+MLR <- lm(hipcenter~., data=seatpos)
+print(summary(MLR))
+```
+
+
+***
+  
+## Question 2
+  
+  
+rejecting null over but not for t statistics, none of p values are significant
+high R2 but not great for each one, probably multicollinearity
+  
+none of the predictors account for significant partial variance, multicollinearity
+  
+```{R}
+preds <- cbind(Age, Weight, HtShoes, Ht, Seated, Arm, Thigh, Leg)
+cor(preds)
+```
+  
+A lot of high correlation, almost all values are above .5
+  
+```{R}
+library(faraway)
+vif(MLR)
+```
+  
+Heights are of course correlated, other values all below 10, but still. 
+  
+```{r pressure, echo=FALSE}
+round(cor(seatpos[,3:8]),3)
+```
+
+Correlation between Hts are almost 1. 
+
+We know this group of predictors is similar, we can just remove one. 
+
+
+***
+  
+## Question 3 
+  
+
+
+```{R}
+pairs(preds)
+```
+
+
+***
+  
+## Question 4 
+  
+
+predictors good except age
+
+```{r cars}
+library(faraway)
+vif(MLR)
+```
+
+
+***
+  
+## Question 5 
+  
+
+```{r pressure, echo=FALSE}
+round(cor(seatpos[,3:8]),3)
+```
+
+***
+  
+## Question 6  
+  
+when peopl eare tall, limbs are longer 
+
+Which value to keep? 
+  height highly correlated with the rest
+  probably an understanding piece of information for audiences
+
+If we're automating seat position, we can easily use height. 
+
+Height with shoes is more realistic. Just as high correlations as Height but you drive while wearing shoes. 
+
+Thigh could resolve multicollinearity as much as possible. Least correlated with age and weight, while still highly correlated with height. 
+
+***
+  
+## Question 7  
+  
+```{R}
+MLR2 <- lm(formula = hipcenter ~Age+Weight+Ht)
+vif(MLR2)
+anova(MLR2,MLR)
+```
+
+High p value, should still reject the null. 
+
