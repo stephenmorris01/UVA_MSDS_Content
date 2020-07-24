@@ -1,6 +1,6 @@
 data <- read.table("mileage.txt", header=TRUE ,sep="")
 attach(data)
-pairs(data)
+pairs(data, lower.panel = NULL)
 result<-lm(y~x1+x2+x6+x10)
 summary(result)
 #see high F statistic and low p value, reject null 
@@ -10,6 +10,9 @@ summary(result)
 #   therefore partial F test comes in
 #   we could fit reduced model and compare SSR between reduced and bigger model 
 
+
+#if you add in predictors that are not useful, could go down
+#
 
 reduced<-lm(y~x1)
 anova(reduced,result) # F value is F statistic, and shows p value for that statistic

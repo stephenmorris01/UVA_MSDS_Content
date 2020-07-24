@@ -17,12 +17,12 @@ class AStudent:
         self.numCourses = numCourses  # The number of courses a student is enrolled in
         if grades is None:  # If no grades parameter was provided
             grades = []     # Empty list, until values added
-        #else:
-        self.grades = grades  # However, if grades is provided, handle it here
+        else:
+            self.grades = grades  # However, if grades is provided, handle it here
         if courses is None:     # If no courses parameter was provided
-            courses = []        # Empty list, until values added
-        #else:
-        self.courses = courses # However, if courses is provided, handle it here
+            self.courses = []        # Empty list, until values added
+        else:
+            self.courses = courses # However, if courses is provided, handle it here
     
     def enrollInCourse(self, cname): # Enroll in a course
         courseName = cname
