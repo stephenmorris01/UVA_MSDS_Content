@@ -1,0 +1,30 @@
+Tasks:
+1. Create three user types for your scenarios
+
+2. Create 10-15 user stories for the backlog. Place these user stories on the list titled “Product Backlog (User Stories)”
+
+3. Determine which user stories should be placed in Sprint 1. Create new cards on the list “Sprint 1 (User Stories).”
+
+4. Prioritize the user stories for Sprint 1. Create new cards on the list “Prioritized Sprint 1 (User Stories).”
+
+5. Create tasks for the first Sprint. Add cards to the list “Tasks Per User Story for Sprint 1.”
+
+6. Repeat steps 2-4 for the second Sprint (scenario 2). If you continue to scroll to the right on the Trello board, you’ll see the same categories set up for Sprint 2 as were set up for Sprint 1.
+
+
+
+
+
+
+Be sure to use the following format for writing your user stories:
+As a [user-type], I want to [user-action] [for a reason].
+
+User stories (green) describe in layman’s terms a goal of a product user and why that goal exists. It should be described in a non technical way so that its meaning is equally understood by all parts of the business. A user story takes the form “As a [user-type], I want to [user-action] [for a reason]."
+
+A Task (purple) that needs to be done that must be completed as part of the Minimum Viable Product.
+
+Once you have signed up for a Trello account, you’ll need to copy the board for your Module 9 Live Session Assignment: Using Scrum.
+Follow these easy steps:
+ 
+Go to the CS 5010: Module 9 Live Lesson Activity Trello Board.
+ 

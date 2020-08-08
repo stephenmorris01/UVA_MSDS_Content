@@ -1,0 +1,26 @@
+
+Finally discuss conclusions and future work/improvements/etc.
+
+1. what do we expect from the future? 
+
+2. how can we help?
+
+
+Extra Credit: 
+
+Webscraping
+User Interaction
+Advanced queries 
+
+
+We are group 11
+rate 8, 1
+
+What folks did for Extra Credit:
+	Interactive maps 
+	Moving video graph over time
+	Scraped data
+
+
+
+		

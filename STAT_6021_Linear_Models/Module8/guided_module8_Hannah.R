@@ -1,0 +1,69 @@
+data<-read.table("nfl.txt", header=TRUE, sep="")
+attach(data)
+#question 1
+result.y.passing <- lm(y~x7+x8)
+result.passing <- lm(x2~x7+x8)
+#part a
+res.y.passing <- result.y.passing$residuals
+res.passing <- result.passing$residuals
+plot(res.y.passing~res.passing, main="passing partial regression plot")
+#part b
+model.passing <- lm(res.y.passing~res.passing)
+abline(model.passing, col="blue")
+summary(model.passing)
+#part c
+model <- lm(y~x2+x7+x8)
+summary(model)
+#part e
+#x7
+result.y.per.rushing <- lm(y~x2+x8)
+result.per.rushing <- lm(x7~x2+x8)
+res.y.per.rushing <- result.y.per.rushing$residuals
+res.per.rushing <- result.per.rushing$residuals
+plot(res.y.per.rushing~res.per.rushing, main="percent rushing partial regression plot")
+model.per.rushing <- lm(res.y.per.rushing~res.per.rushing)
+abline(model.per.rushing, col="blue")
+summary(model.per.rushing)
+#x8
+result.y.opp.rushing <- lm(y~x2+x7)
+result.opp.rushing <- lm(x8~x2+x7)
+res.y.opp.rushing <- result.y.opp.rushing$residuals
+res.opp.rushing <- result.opp.rushing$residuals
+plot(res.y.opp.rushing~res.opp.rushing, main="opponent rushing partial regression plot")
+model.opp.rushing <- lm(res.y.opp.rushing~res.opp.rushing)
+abline(model.opp.rushing, col="blue")
+summary(model.opp.rushing)
+#question 2
+##residuals
+res<-model$residuals 
+##studentized residuals
+student.res<-rstandard(model) 
+##externally studentized residuals
+ext.student.res<-rstudent(model) 
+par(mfrow=c(1,3))
+plot(model$fitted.values,res,main="Residuals")
+plot(model$fitted.values,student.res,main="Studentized Residuals")
+plot(model$fitted.values,ext.student.res,main="Externally  Studentized Residuals")
+#question 3
+##leverage obsercations
+lev<-lm.influence(model)$hat 
+sort(lev)
+n<-28
+p<-4
+2*p/n
+plot(lev, main="Leverages", ylim=c(0,0.4))
+abline(h=2*p/n, col="blue")
+##identify data points on plot
+identify(lev)
+##or
+lev[lev>2*p/n]
+#question 4
+##influential observations
+DFFITS<-dffits(model)
+DFFITS[abs(DFFITS)>2*sqrt(p/n)]
+
+DFBETAS<-dfbetas(model)
+DFBETAS[abs(DFBETAS)>2/sqrt(n)]
+
+COOKS<-cooks.distance(model)
+COOKS[COOKS>qf(0.5,p,n-p)]
