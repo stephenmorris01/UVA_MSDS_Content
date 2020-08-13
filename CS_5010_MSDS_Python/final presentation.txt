@@ -16,11 +16,37 @@ Advanced queries
 We are group 11
 rate 8, 1
 
+= 0.003997575
+# = 0.1004374$
+
+
 What folks did for Extra Credit:
 	Interactive maps 
 	Moving video graph over time
 	Scraped data
-
-
+	Choropleth heatmap
+	
 
 		
+https://mail.google.com/mail/u/0/#inbox
+https://calendar.google.com/calendar/r?tab=mc
+https://mail.google.com/mail/u/5/#inbox
+https://calendar.google.com/calendar/b/5/r?tab=mc
+https://docs.google.com/document/d/1JSJtnJLzUeGvtGT8ugQHvvHaTmcCcv2Qzi_szLAUlas/edit#heading=h.xls0fmb01ktl
+https://docs.google.com/document/d/1eC3aKkEzWUH9alUFvTDwtWiiW5dSWLQdEn4obNTTz9s/edit#
+https://drive.google.com/drive/u/0/folders/1ksmDbnE6hUV3oBv1RPI-v8KaVsqzlnIS
+https://docs.google.com/spreadsheets/d/15T4QPqbFSqQVNseL5pVIcUtTL2UY4G4jxATbJl2S_CY/edit#gid=0
+https://docs.google.com/spreadsheets/d/1bfePhnq-ukSMCH9FQtgZO3-yLBDIwEEwcx2c7Gs8LVk/edit#gid=842448348
+https://docs.google.com/spreadsheets/d/1aADyctZjLzREfr2gOVhv5w6ObxHlx-7wUsQwiBMCJR8/edit#gid=824501343
+https://www.youtube.com/watch?v=5qap5aO4i9A
+https://pdfs.semanticscholar.org/d648/592c98bc63164ac6f6989e1af5c525a06817.pdf
+https://collab.its.virginia.edu/portal/site/42665e31-1652-4b37-b98a-ecf36fc2da92/tool/16445ede-ea34-416a-82c7-34b5c491f3df/ShowPage?sendingPage=214189&itemId=1593411&path=clear_and_push&title=12.1%20Finalizing%20Your%20Semester%20Project&newTopLevel=false
+file:///D:/Git/UVA_MSDS_Content/STAT_6021_Linear_Models/CS%205010%20-%20Project.pdf
+https://collab.its.virginia.edu/portal/site/42665e31-1652-4b37-b98a-ecf36fc2da92/tool/16445ede-ea34-416a-82c7-34b5c491f3df/ShowItem?returnView=&studentItemId=0&backPath=&errorMessage=&clearAttr=&source=&title=&sendingPage=214189&newTopLevel=false&postedComment=false&addBefore=&itemId=1593506&path=&addTool=-1&recheck=&id=
+https://en.wikipedia.org/wiki/Phi
+http://www.r2d3.us/visual-intro-to-machine-learning-part-2/?mkt_tok=eyJpIjoiTURkaFlXSmpPREV4TVRGaCIsInQiOiJ5QXVXa2JKcXZxTVwvSllWXC9TVEdROUgxSHFNNUlRWkpiUElFbjdvNEpXNkdndU5QV0RhbkwwVlBcL1VOckNmZ0hKNFl2SUNPeGY4eTdyYmRHK0liYzF3dDlkdVgzZmFLbVMxdlwvUThzbmpGR0dNYWdLTGZSK3Vvb1VMR3BLOERERHgifQ%3D%3D
+https://en.wikipedia.org/wiki/East_Turkestan
+https://app.slack.com/client/TCQ8V505V/D013J9H0DFT
+https://chezdungeness.slack.com/customize/slackbot
+https://api.slack.com/methods/reactions.add
+https://slackmojis.com/
